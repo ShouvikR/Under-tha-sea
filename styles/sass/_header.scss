@@ -1,0 +1,15 @@
+// Home page styling:
+
+header {
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 70vh;
+}
+
+.home-ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
