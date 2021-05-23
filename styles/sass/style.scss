@@ -2,9 +2,12 @@
 @import "variable";
 @import "header";
 
-
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $bodyFont;
 }
 
 body,
@@ -12,28 +15,82 @@ h1,
 h2,
 h3,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: $fontColor;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: $fontColor;
+  text-transform: uppercase;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .wrapper {
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
+h1,
+h2 {
+  color: $fontColor;
+  font-family: $baseFont;
+  text-transform: uppercase;
+}
+
+// Main
+
+// Section: about
+
+.about {
+  background-color: $primary;
+}
+
+.home-box-image img {
+  width: 450px;
+  height: 400px;
+}
+
+.home-box-image {
+  position: absolute;
+  top: 140px;
+  right: 0;
+}
+
+button {
+  padding: 6px 14px;
+  border: none;
+  background: $shadow;
+}
+
+.about-details {
+  text-align: center;
+  // margin-top: 25px;
+  padding: 120px 100px;
+}
+
+.about-details a {
+  color: $primary;
+  // font-size: 1rem;
+}
+
+.about-details p {
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 14px;
+  color: $fontColor;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
