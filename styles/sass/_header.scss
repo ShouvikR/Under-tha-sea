@@ -1,15 +1,58 @@
 // Home page styling:
 
 header {
-    background-image: url(../assets/banner.jpg);
+    background-image: linear-gradient(
+      rgba(11, 1, 1, 0.674),
+      rgba(18, 8, 8, 0.236)
+    ), url(../../assets/header-image.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 70vh;
+    height: 60vh;
 }
 
 .home-ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    font-family: $baseFont;
+    // padding-top: 15px;
 }
+
+.home-ul li {
+    padding: 15px 15px 0;
+    // letter-spacing: 0.5px;
+}
+
+.home-ul a:hover,
+.home-ul a:focus {
+    color: $shadow;
+}
+
+h1 {
+    color: $fontColor;
+    font-size: 6.5rem;
+    font-family: $baseFont;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.header-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.banner-text {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+
+
