@@ -8,7 +8,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 60vh;
+    height: 70vh;
 }
 
 .home-ul {
@@ -22,7 +22,8 @@ header {
 
 .home-ul li {
     padding: 15px 15px 0;
-    // letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
 .home-ul a:hover,
@@ -32,10 +33,10 @@ header {
 
 h1 {
     color: $fontColor;
-    font-size: 6.5rem;
+    font-size: 6.8rem;
     font-family: $baseFont;
     text-transform: uppercase;
-    line-height: 60px;
+    line-height: 65px;
 }
 
 .header-content {
@@ -51,16 +52,6 @@ h1 {
     align-items: center;
 }
 
-// .home-box-image img {
-//     width: 450px;
-//     height: 420px;
-// }
-
-// .home-box-image {
-//     position: absolute;
-//     top: 140px;
-//     right: 0;
-// }
 
 
 

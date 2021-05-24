@@ -34,6 +34,14 @@ img {
   width: 100%;
 }
 
+p {
+  padding: 15px 0;
+  text-align: justify;
+  line-height: 25px;
+  color: $fontColor;
+  font-size: 1.5rem;
+}
+
 .wrapper {
   max-width: 1200px;
   width: 90%;
@@ -41,7 +49,8 @@ img {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: $fontColor;
   font-family: $baseFont;
   text-transform: uppercase;
@@ -56,7 +65,7 @@ h2 {
 }
 
 .home-box-image img {
-  width: 450px;
+  width: 650px;
   height: 400px;
 }
 
@@ -67,9 +76,19 @@ h2 {
 }
 
 button {
-  padding: 6px 14px;
+  padding: 8px 16px;
   border: none;
   background: $shadow;
+  font-family: $baseFont;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  border: 1px solid #86E0F9;
+}
+
+button:hover,
+button:focus {
+    border: 1px solid $primary;
+    cursor: pointer;
 }
 
 .about-details {
@@ -83,14 +102,127 @@ button {
   // font-size: 1rem;
 }
 
-.about-details p {
-  padding: 10px 0;
-  text-align: justify;
-  line-height: 14px;
-  color: $fontColor;
-}
+// .about-details p {
+//   padding: 10px 0;
+//   text-align: justify;
+//   line-height: 14px;
+//   color: $fontColor;
+// }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 1px;
 }
+// ---------------------------------
+
+
+// Section: new-addition
+
+h3 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+
+.new-addition {
+    background: $secondary;
+}
+
+// .new-addition img {
+//     width: 510px;
+// }
+
+.new-addition-calc {
+    width: calc(100% / 2);
+}
+
+.new-addition-img {
+    // width: 45%;
+    margin-right: 150px;
+}
+
+.fish-details-box {
+    // width: 45%;
+    // margin-left: 50px;
+    padding: 40px 0px;
+    // margin: 40px 0;
+    padding-left: 60px;
+    margin-right: 80px;
+}
+
+.clown-fish-img {
+    // margin-left: 190px;
+    margin-left: 100px;
+}
+
+.clown-fish-details {
+    padding: 68px 0px;
+    padding-right: 100px;
+    // padding-left: 50px;
+    // margin-right: 60px;
+    margin-left: 80px;
+    // margin-right: 160px;
+    text-align: right;
+}
+
+.new-addition button {
+    background: $primary;
+}
+
+.fish-box-1,
+.fish-box-2 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.fish-box-1 p {
+    // text-align: left;
+}
+
+.fish-box-2 p {
+    // text-align: right;
+}
+
+
+// .fish-box-1 .fish-box-details {
+//     padding: 45px 0;
+//     margin-right: 80px;
+//     margin-left: 170px;
+// }
+
+// .fish-box-2 .fish-box-details {
+//     padding: 40px 0;
+//     margin-left: 80px;
+//     margin-right: 170px;
+// }
+
+.new-addition button {
+    border: 1px solid $primary;
+}
+
+.new-addition button:hover,
+.new-addition button:focus {
+    border: 1px solid $secondary;
+    color: $shadow;
+    cursor: pointer;
+}
+
+.new-addition button:hover a,
+.new-addition button:focus a {
+    color: $shadow;  
+}
+
+.fish-box-1 img {
+    box-shadow: 35px 35px #86E0F9;
+    // margin-right: 20px;
+    position: relative;
+    top: -35px;
+}
+
+.fish-box-2 img {
+    box-shadow: -35px 35px #86E0F9;
+    // margin-left: 20px;
+    position: relative;
+    bottom: -35px;
+}
+
+
