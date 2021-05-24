@@ -14,6 +14,7 @@ body,
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -44,19 +45,20 @@ p {
 
 .wrapper {
   max-width: 1200px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: $fontColor;
   font-family: $baseFont;
   text-transform: uppercase;
 }
 
-// Main
+// MAIN starts here:
 
 // Section: about
 
@@ -78,7 +80,7 @@ h3 {
 button {
   padding: 8px 16px;
   border: none;
-  background: $shadow;
+  background-color: $shadow;
   font-family: $baseFont;
   letter-spacing: 1px;
   font-size: 1.6rem;
@@ -93,21 +95,12 @@ button:focus {
 
 .about-details {
   text-align: center;
-  // margin-top: 25px;
   padding: 120px 100px;
 }
 
 .about-details a {
   color: $primary;
-  // font-size: 1rem;
 }
-
-// .about-details p {
-//   padding: 10px 0;
-//   text-align: justify;
-//   line-height: 14px;
-//   color: $fontColor;
-// }
 
 h2 {
   font-size: 3rem;
@@ -124,11 +117,11 @@ h3 {
 }
 
 .new-addition {
-    background: $secondary;
+    background-color: $secondary;
 }
 
-// .new-addition img {
-//     width: 510px;
+// .clown-fish-img img {
+//     width: 520px;
 // }
 
 .new-addition-calc {
@@ -175,11 +168,11 @@ h3 {
 }
 
 .fish-box-1 p {
-    // text-align: left;
+    text-align: left;
 }
 
 .fish-box-2 p {
-    // text-align: right;
+    text-align: right;
 }
 
 
@@ -212,17 +205,145 @@ h3 {
 }
 
 .fish-box-1 img {
-    box-shadow: 35px 35px #86E0F9;
+    box-shadow: 35px 35px $shadow;
     // margin-right: 20px;
     position: relative;
     top: -35px;
+    
 }
 
 .fish-box-2 img {
-    box-shadow: -35px 35px #86E0F9;
+    box-shadow: -35px 35px $shadow;
     // margin-left: 20px;
     position: relative;
     bottom: -35px;
+    
 }
 
 
+// -------------------------------------
+
+
+// Section: contact
+
+.contact {
+    background-color: $primary;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-flex {
+    padding: 100px 0 50px;
+}
+
+.location,
+.blog {
+    margin-right: 50px;
+}
+
+.contact-container div:nth-of-type(1) {
+    margin-bottom: 40px;
+}
+
+.location h3::before,
+.community h3::before,
+.blog h3::before,
+.get-in-touch h3::before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    border-radius: 50%;
+    background-color: $shadow;
+    color: $primary;
+    font-size: 2.3rem;
+    padding: 8px;
+    position: relative;
+    margin-right: 12px;
+}
+
+
+.location h3::before {
+    content: "\f124";
+}
+
+.community h3::before {
+    content: '\f0c0';
+}
+
+.blog h3::before {
+    content: '\f15b';
+    padding: 8px 11px;
+}
+
+.get-in-touch h3::before {
+    content: '\f095'
+}
+
+.contact p {
+    padding-left: 55px;
+}
+
+// -----------------------------------
+
+// Section: month-profile
+
+h4 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.month-profile {
+    background-color: $primary;
+}
+
+.month-profile-flex {
+    padding: 100px 0 80px;
+
+    display: flex;
+}
+
+.month-profile button a {
+    color: $primary;
+}
+
+.month-profile-flex img {
+    width: 250px;
+    box-shadow: 30px 30px $shadow;
+    margin-right: 90px;
+}
+
+.month-profile-flex p {
+    padding: 15px 0 35px;
+}
+
+// ------------------------------
+
+// Section: gallery
+
+.gallery {
+    background-color: $secondary;
+    padding: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gallery div:nth-of-type(2) {
+    margin: 0 30px;
+}
+
+// --------------------------------
+
+// Section: footer
+
+footer {
+    background-color: $shadow;
+}
+
+footer p {
+    color: $primary;
+    text-align: center;
+    padding: 10px;
+}
+
+// --------------------------------
