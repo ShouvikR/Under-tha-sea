@@ -1,0 +1,374 @@
+
+@media (max-width: 955px) {
+  .home-box-image img {
+    width: 550px;
+  }
+
+  .home-ul li {
+    padding: 15px 18px 0;
+  }
+
+  .new-addition-img {
+    margin-right: 70px;
+  }
+
+  .clown-fish-img {
+    margin-left: 20px;
+  }
+
+  .fish-box-1 img {
+    box-shadow: 28px 28px $shadow;
+  }
+
+  .fish-box-2 img {
+    box-shadow: -28px 28px $shadow;
+  }
+
+  .month-profile-flex p {
+    padding: 15px 0 18px;
+  }
+
+  .month-profile-flex img {
+    width: 300px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 882px) {
+  header {
+    height: 70vh;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  .home-box-image img {
+    width: 520px;
+    height: 420px;
+  }
+
+  .home-ul li {
+    padding: 15px 15px 0;
+  }
+
+  .about-details {
+    text-align: center;
+    padding: 120px 70px 140px;
+  }
+
+  .fish-box-1 {
+    margin-bottom: 0px;
+  }
+
+  .new-addition img {
+    height: 250px;
+  }
+
+  .new-addition-img {
+    margin-right: 70px;
+  }
+
+  .fish-details-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-right: 40px;
+  }
+
+  .clown-fish-img {
+    margin-left: 85px;
+  }
+
+  .clown-fish-details {
+    padding-top: 40px;
+    padding-right: 5px;
+    margin-left: 40px;
+  }
+
+  .fish-box-2 img {
+    bottom: -65px;
+  }
+
+  .month-profile-flex {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .month-profile-flex div:nth-of-type(1) {
+    padding-bottom: 70px;
+  }
+
+  .month-profile-flex img {
+    width: 350px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 790px) {
+  header {
+    height: 65vh;
+  }
+
+  p {
+    padding: 13px 0;
+    line-height: 23px;
+    color: $fontColor;
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 6.3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3,
+  h4 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 2.4rem;
+  }
+
+  button {
+    padding: 5px 14px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    border: 1px solid #86e0f9;
+  }
+
+  .about-details {
+    padding: 130px 40px;
+  }
+
+  .home-box-image img {
+    width: 450px;
+    height: 400px;
+  }
+
+  .home-ul li {
+    padding: 15px 10px 0;
+  }
+
+  .new-addition-img {
+    margin-right: 30px;
+  }
+
+  .fish-details-box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-right: 10px;
+  }
+
+  .clown-fish-img {
+    margin-left: 0px;
+  }
+
+  .clown-fish-details {
+    padding-top: 50px;
+    padding-right: 55px;
+    margin-left: 10px;
+  }
+
+  .fish-box-1 img {
+    box-shadow: 10px 15px 30px 1px $shadow;
+    top: 0;
+  }
+
+  .fish-box-2 img {
+    box-shadow: -10px -15px 30px 1px $shadow;
+    bottom: -36px;
+  }
+
+  .contact-flex {
+    padding: 60px 0px;
+  }
+
+  .contact-container div:nth-of-type(1) {
+    margin-bottom: 30px;
+  }
+
+  .location h3::before,
+  .community h3::before,
+  .blog h3::before,
+  .get-in-touch h3::before {
+    font-size: 1.7rem;
+  }
+
+  .contact p {
+    padding-left: 45px;
+  }
+
+  .gallery div:nth-of-type(2) {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 718px) {
+  .fish-box-2 img {
+    box-shadow: -10px -15px 30px 1px $shadow;
+  }
+
+  .clown-fish-img {
+    margin-left: 25px;
+  }
+
+  .clown-fish-details {
+    padding-top: 50px;
+    padding-right: 20px;
+    margin-left: 10px;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery div:nth-of-type(2) {
+    margin: 20px 0px;
+  }
+
+}
+
+@media (max-width: 676px) {
+  header {
+    height: 55vh;
+  }
+
+  .home-ul {
+    display: none;
+  }
+
+  .banner-text {
+    height: 100%;
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    line-height: 50px;
+  }
+
+  .home-box-image img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .home-ul li {
+    font-size: 1rem;
+  }
+
+  .about-details {
+    padding: 90px 30px;
+  }
+
+  .fish-box-1,
+  .fish-box-2 {
+    flex-direction: column;
+  }
+
+  .fish-box-1 p {
+    text-align: justify;
+  }
+
+  .fish-box-2 p {
+    text-align: justify;
+  }
+
+  .new-addition-calc {
+    width: 100%;
+  }
+
+  .fish-details-box {
+    padding: 60px 60px 30px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .clown-fish-img {
+    order: 1;
+    padding: 0;
+    margin: 0;
+  }
+
+  .clown-fish-details {
+    order: 2;
+    padding: 90px 60px 65px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .fish-box-1 img {
+    box-shadow: 0px 10px 25px 1px $shadow;
+  }
+
+  .fish-box-2 img {
+    box-shadow: 0px 10px 25px 1px $shadow;
+    bottom: -36px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home-box-image img {
+    width: 330px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .location,
+  .blog {
+    margin: 0px;
+  }
+
+  .month-profile-flex img {
+    width: 100%;
+    box-shadow: 0px 10px 5px 1px $shadow;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    height: 50vh;
+  }
+
+  .home-box-image img {
+    width: 270px;
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 370px) {
+  header {
+    height: 40vh;
+  }
+
+  .home-box-image img {
+    width: 230px;
+    height: 220px;
+  }
+
+  .home-box-image {
+    position: absolute;
+    top: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 40px;
+  }
+}

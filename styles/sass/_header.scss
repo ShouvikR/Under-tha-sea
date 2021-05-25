@@ -8,7 +8,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 .home-ul {
@@ -21,7 +21,7 @@ header {
 }
 
 .home-ul li {
-    padding: 15px 15px 0;
+    padding: 15px 25px 0;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
@@ -33,10 +33,10 @@ header {
 
 h1 {
     color: $fontColor;
-    font-size: 6.8rem;
+    font-size: 8rem;
     font-family: $baseFont;
     text-transform: uppercase;
-    line-height: 65px;
+    line-height: 75px;
 }
 
 .header-content {
