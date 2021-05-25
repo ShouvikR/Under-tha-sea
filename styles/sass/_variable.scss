@@ -1,7 +1,15 @@
-$primary: #0C1423;
-$secondary: #0F614E;
-$shadow: #86E0F9;
+$primary: #0c1423;
+$secondary: #0f614e;
+$shadow: #86e0f9;
 $fontColor: #fff;
 
-$baseFont: 'Barlow', sans-serif;
-$bodyFont: 'Lato', sans-serif;
+$baseFont: "Barlow", sans-serif;
+$bodyFont: "Lato", sans-serif;
+
+@mixin fontSize($sizeValue) {
+  font-size: $sizeValue;
+  color: $fontColor;
+  font-weight: bold;
+  font-family: $baseFont;
+  text-transform: uppercase;
+}

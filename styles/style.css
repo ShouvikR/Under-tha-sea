@@ -277,9 +277,13 @@ template {
   overflow: hidden;
 }
 
-header {
+.homepage-header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 1, 1, 0.674)), to(rgba(18, 8, 8, 0.236))), url(../../assets/header-image.jpg);
   background-image: linear-gradient(rgba(11, 1, 1, 0.674), rgba(18, 8, 8, 0.236)), url(../../assets/header-image.jpg);
+}
+
+.homepage-header,
+.contact-header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -307,12 +311,13 @@ header {
 
 .home-ul a:hover,
 .home-ul a:focus {
-  color: #86E0F9;
+  color: #86e0f9;
 }
 
 h1 {
-  color: #fff;
   font-size: 8rem;
+  color: #fff;
+  font-weight: bold;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
   line-height: 75px;
@@ -340,6 +345,18 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.contact-header {
+  background-image: url(../../assets/contact-header.jpg);
+}
+
+.contact-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
 }
 
 html {
@@ -378,7 +395,6 @@ img {
 
 p {
   padding: 15px 0;
-  text-align: justify;
   line-height: 25px;
   color: #fff;
   font-size: 1.5rem;
@@ -401,7 +417,7 @@ h5 {
 }
 
 .about {
-  background-color: #0C1423;
+  background-color: #0c1423;
 }
 
 .home-box-image img {
@@ -418,7 +434,7 @@ h5 {
 button {
   padding: 8px 16px;
   border: none;
-  background-color: #86E0F9;
+  background-color: #86e0f9;
   font-family: "Barlow", sans-serif;
   letter-spacing: 1px;
   font-size: 1.6rem;
@@ -427,7 +443,7 @@ button {
 
 button:hover,
 button:focus {
-  border: 1px solid #0C1423;
+  border: 1px solid #0c1423;
   cursor: pointer;
 }
 
@@ -437,7 +453,7 @@ button:focus {
 }
 
 .about-details a {
-  color: #0C1423;
+  color: #0c1423;
 }
 
 h2 {
@@ -451,7 +467,7 @@ h3 {
 }
 
 .new-addition {
-  background-color: #0F614E;
+  background-color: #0f614e;
 }
 
 .new-addition img {
@@ -499,7 +515,7 @@ h3 {
 }
 
 .new-addition button {
-  background: #0C1423;
+  background: #0c1423;
 }
 
 .fish-box-1 p {
@@ -511,13 +527,13 @@ h3 {
 }
 
 .new-addition button {
-  border: 1px solid #0C1423;
+  border: 1px solid #0c1423;
 }
 
 .new-addition button:hover,
 .new-addition button:focus {
-  border: 1px solid #0F614E;
-  color: #86E0F9;
+  border: 1px solid #0f614e;
+  color: #86e0f9;
   cursor: pointer;
 }
 
@@ -527,15 +543,15 @@ h3 {
 }
 
 .fish-box-1 img {
-  -webkit-box-shadow: 35px 35px #86E0F9;
-          box-shadow: 35px 35px #86E0F9;
+  -webkit-box-shadow: 35px 35px #86e0f9;
+          box-shadow: 35px 35px #86e0f9;
   position: relative;
   top: -35px;
 }
 
 .fish-box-2 img {
-  -webkit-box-shadow: -35px 35px #86E0F9;
-          box-shadow: -35px 35px #86E0F9;
+  -webkit-box-shadow: -35px 35px #86e0f9;
+          box-shadow: -35px 35px #86e0f9;
   position: relative;
   bottom: -35px;
 }
@@ -546,7 +562,7 @@ h4 {
 }
 
 .contact {
-  background-color: #0C1423;
+  background-color: #0c1423;
 }
 
 .contact-container {
@@ -575,8 +591,8 @@ h4 {
   font-family: "Font Awesome 5 Free";
   display: inline-block;
   border-radius: 50%;
-  background-color: #86E0F9;
-  color: #0C1423;
+  background-color: #86e0f9;
+  color: #0c1423;
   font-size: 2.3rem;
   padding: 8px;
   position: relative;
@@ -606,8 +622,8 @@ h4 {
 
 h4:hover,
 h4:focus {
-  -webkit-box-shadow: 2px 2px 4px 1px #86E0F9;
-          box-shadow: 2px 2px 4px 1px #86E0F9;
+  -webkit-box-shadow: 2px 2px 4px 1px #86e0f9;
+          box-shadow: 2px 2px 4px 1px #86e0f9;
 }
 
 h5 {
@@ -616,7 +632,7 @@ h5 {
 }
 
 .month-profile {
-  background-color: #0C1423;
+  background-color: #0c1423;
 }
 
 .month-profile-flex {
@@ -627,13 +643,13 @@ h5 {
 }
 
 .month-profile button a {
-  color: #0C1423;
+  color: #0c1423;
 }
 
 .month-profile-flex img {
   width: 250px;
-  -webkit-box-shadow: 30px 30px #86E0F9;
-          box-shadow: 30px 30px #86E0F9;
+  -webkit-box-shadow: 30px 30px #86e0f9;
+          box-shadow: 30px 30px #86e0f9;
   margin-right: 70px;
 }
 
@@ -642,7 +658,7 @@ h5 {
 }
 
 .gallery {
-  background-color: #0F614E;
+  background-color: #0f614e;
   padding: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -656,11 +672,11 @@ h5 {
 }
 
 footer {
-  background-color: #86E0F9;
+  background-color: #86e0f9;
 }
 
 footer p {
-  color: #0C1423;
+  color: #0c1423;
   text-align: center;
   padding: 10px;
 }
@@ -683,13 +699,13 @@ footer p {
   }
 
   .fish-box-1 img {
-    -webkit-box-shadow: 28px 28px #86E0F9;
-            box-shadow: 28px 28px #86E0F9;
+    -webkit-box-shadow: 28px 28px #86e0f9;
+            box-shadow: 28px 28px #86e0f9;
   }
 
   .fish-box-2 img {
-    -webkit-box-shadow: -28px 28px #86E0F9;
-            box-shadow: -28px 28px #86E0F9;
+    -webkit-box-shadow: -28px 28px #86e0f9;
+            box-shadow: -28px 28px #86e0f9;
   }
 
   .month-profile-flex p {
@@ -702,7 +718,7 @@ footer p {
   }
 }
 @media (max-width: 882px) {
-  header {
+  .homepage-header {
     height: 70vh;
   }
 
@@ -779,7 +795,7 @@ footer p {
   }
 }
 @media (max-width: 790px) {
-  header {
+  .homepage-header {
     height: 65vh;
   }
 
@@ -849,14 +865,14 @@ h4 {
   }
 
   .fish-box-1 img {
-    -webkit-box-shadow: 10px 15px 30px 1px #86E0F9;
-            box-shadow: 10px 15px 30px 1px #86E0F9;
+    -webkit-box-shadow: 10px 15px 30px 1px #86e0f9;
+            box-shadow: 10px 15px 30px 1px #86e0f9;
     top: 0;
   }
 
   .fish-box-2 img {
-    -webkit-box-shadow: -10px -15px 30px 1px #86E0F9;
-            box-shadow: -10px -15px 30px 1px #86E0F9;
+    -webkit-box-shadow: -10px -15px 30px 1px #86e0f9;
+            box-shadow: -10px -15px 30px 1px #86e0f9;
     bottom: -36px;
   }
 
@@ -885,8 +901,8 @@ h4 {
 }
 @media (max-width: 718px) {
   .fish-box-2 img {
-    -webkit-box-shadow: -10px -15px 30px 1px #86E0F9;
-            box-shadow: -10px -15px 30px 1px #86E0F9;
+    -webkit-box-shadow: -10px -15px 30px 1px #86e0f9;
+            box-shadow: -10px -15px 30px 1px #86e0f9;
   }
 
   .clown-fish-img {
@@ -915,7 +931,7 @@ h4 {
   }
 }
 @media (max-width: 676px) {
-  header {
+  .homepage-header {
     height: 55vh;
   }
 
@@ -958,11 +974,11 @@ h4 {
   }
 
   .fish-box-1 p {
-    text-align: justify;
+    text-align: unset;
   }
 
   .fish-box-2 p {
-    text-align: justify;
+    text-align: unset;
   }
 
   .new-addition-calc {
@@ -993,13 +1009,13 @@ h4 {
   }
 
   .fish-box-1 img {
-    -webkit-box-shadow: 0px 10px 25px 1px #86E0F9;
-            box-shadow: 0px 10px 25px 1px #86E0F9;
+    -webkit-box-shadow: 0px 10px 25px 1px #86e0f9;
+            box-shadow: 0px 10px 25px 1px #86e0f9;
   }
 
   .fish-box-2 img {
-    -webkit-box-shadow: 0px 10px 25px 1px #86E0F9;
-            box-shadow: 0px 10px 25px 1px #86E0F9;
+    -webkit-box-shadow: 0px 10px 25px 1px #86e0f9;
+            box-shadow: 0px 10px 25px 1px #86e0f9;
     bottom: -36px;
   }
 }
@@ -1017,17 +1033,21 @@ h4 {
 
   .location,
 .blog {
-    margin: 0px;
+    margin-right: 0px;
+  }
+
+  .contact p {
+    padding-left: 50px;
   }
 
   .month-profile-flex img {
     width: 100%;
-    -webkit-box-shadow: 0px 10px 5px 1px #86E0F9;
-            box-shadow: 0px 10px 5px 1px #86E0F9;
+    -webkit-box-shadow: 0px 10px 5px 1px #86e0f9;
+            box-shadow: 0px 10px 5px 1px #86e0f9;
   }
 }
 @media (max-width: 450px) {
-  header {
+  .homepage-header {
     height: 50vh;
   }
 
@@ -1041,7 +1061,7 @@ h4 {
   }
 }
 @media (max-width: 370px) {
-  header {
+  .homepage-header {
     height: 40vh;
   }
 
@@ -1058,5 +1078,11 @@ h4 {
   h1 {
     font-size: 3.5rem;
     line-height: 40px;
+  }
+}
+@media (max-width: 300px) {
+  .home-box-image img {
+    width: 170px;
+    height: 220px;
   }
 }
