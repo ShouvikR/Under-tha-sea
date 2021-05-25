@@ -290,7 +290,8 @@ template {
   height: 80vh;
 }
 
-.home-ul {
+.home-ul,
+.contact-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,14 +304,17 @@ template {
   font-family: "Barlow", sans-serif;
 }
 
-.home-ul li {
+.home-ul li,
+.contact-ul li {
   padding: 15px 25px 0;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 .home-ul a:hover,
-.home-ul a:focus {
+.home-ul a:focus,
+.contact-ul a:hover,
+.contact-ul a:focus {
   color: #86e0f9;
 }
 
@@ -351,12 +355,69 @@ h1 {
   background-image: url(../../assets/contact-header.jpg);
 }
 
-.contact-banner h1 {
-  font-size: 4rem;
+.contact-banner-text h1 {
+  font-size: 5rem;
   color: #fff;
   font-weight: bold;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact-section {
+  background-color: #0c1423;
+  padding: 100px 0;
+}
+
+.social-links ul {
+  margin-top: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social-links ul li {
+  padding: 0 7px;
+}
+.social-links ul :nth-of-type(1) {
+  padding-left: 0;
+}
+
+.social-links i {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+address {
+  font-style: normal;
+}
+
+address p:nth-of-type(1) {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+address p {
+  padding: 3px;
+  font-size: 1.2rem;
+  line-height: 15px;
+}
+
+.contact-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-box {
+  margin-right: 25px;
+  width: 18%;
+}
+
+.form-area {
+  width: 78%;
 }
 
 html {

@@ -6,42 +6,44 @@
       rgba(18, 8, 8, 0.236)
     ),
     url(../../assets/header-image.jpg);
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   background-position: center;
-//   height: 80vh;
+  //   background-repeat: no-repeat;
+  //   background-size: 100% 100%;
+  //   background-position: center;
+  //   height: 80vh;
 }
 
 .homepage-header,
 .contact-header {
-//   background-image: linear-gradient(
-//       rgba(11, 1, 1, 0.674),
-//       rgba(18, 8, 8, 0.236)
-//     ),
-//     url(../../assets/header-image.jpg);
+  //   background-image: linear-gradient(
+  //       rgba(11, 1, 1, 0.674),
+  //       rgba(18, 8, 8, 0.236)
+  //     ),
+  //     url(../../assets/header-image.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   height: 80vh;
 }
 
-
-
-.home-ul {
+.home-ul,
+.contact-ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-family: $baseFont;
 }
 
-.home-ul li {
+.home-ul li,
+.contact-ul li {
   padding: 15px 25px 0;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 .home-ul a:hover,
-.home-ul a:focus {
+.home-ul a:focus,
+.contact-ul a:hover,
+.contact-ul a:focus {
   color: $shadow;
 }
 
@@ -73,12 +75,32 @@ h1 {
 
 .contact-header {
   background-image: url(../../assets/contact-header.jpg);
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   background-position: center;
-//   height: 80vh;
+  //   background-repeat: no-repeat;
+  //   background-size: 100% 100%;
+  //   background-position: center;
+  //   height: 80vh;
 }
 
-.contact-banner h1 {
-  @include fontSize(4rem);
+.contact-banner-text h1 {
+  @include fontSize(5rem);
+  text-align: center;
+  padding-top: 100px;
 }
+
+// .contact-ul {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: center;
+//   font-family: $baseFont;
+// }
+
+// .contact-ul li {
+//   padding: 15px 25px 0;
+//   font-size: 1.2rem;
+//   letter-spacing: 1px;
+// }
+
+// .contact-ul a:hover,
+// .contact-ul a:focus {
+//   color: $shadow;
+// }
