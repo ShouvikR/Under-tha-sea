@@ -1,6 +1,5 @@
 .contact-page-section {
   background-color: $primary;
-  padding: 100px 0;
 }
 
 .social-links ul {
@@ -19,13 +18,12 @@
 
 .social-links i {
   font-size: 1.6rem;
-//   padding-bottom: 10px;
-transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .social-links i:hover,
 .social-links i:focus {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 address {
@@ -46,31 +44,29 @@ address p {
 
 .contact-page-flex {
   display: flex;
-  // width: 100%;
   position: relative;
+  padding: 100px 0;
 }
 
 .contact-page-details-box {
-  margin-right: 25px;
+  margin-right: 35px;
   width: 30%;
 }
 
-.contact-page-section .form-area {
-  width: 68%;
+.form-area {
+  width: 70%;
   background-color: $secondary;
   padding: 60px;
   height: 450px;
   box-shadow: -35px 35px $shadow;
 
   position: absolute;
-  top: -300px;
+  top: -200px;
   right: 0;
 }
 
 .name-email {
   display: flex;
-  // justify-content: space-between;
-  // width: 100%;
 }
 
 .name,
@@ -98,9 +94,6 @@ textarea {
 input {
   border: none;
   width: 100%;
-  // padding: 10px;
-  // background-color: $secondary;
-  // color: $fontColor;
   border-bottom: 2px solid $shadow;
 }
 
@@ -108,9 +101,6 @@ textarea {
   width: 100%;
   height: 200px;
   resize: none;
-  // padding: 10px;
-  // background-color: $secondary;
-  // color: $fontColor;
   border: 2px solid $shadow;
 }
 

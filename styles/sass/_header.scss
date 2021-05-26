@@ -10,20 +10,16 @@
   @include headerHeight(80vh);
 }
 
-// .homepage-header,
-// .contact-page-header {
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   background-position: center;
-//   height: 80vh;
-// }
-
 .home-ul,
 .contact-ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-family: $baseFont;
+}
+
+.contact-ul {
+  margin-top: 0;
 }
 
 .home-ul li,
@@ -41,10 +37,6 @@
 }
 
 h1 {
-  //   color: $fontColor;
-  //   font-size: 8rem;
-  //   font-family: $baseFont;
-  //   text-transform: uppercase;
   @include fontSize(8rem);
   line-height: 75px;
 }
@@ -68,10 +60,6 @@ h1 {
 
 .contact-page-header {
   background-image: url(../../assets/contact-header.jpg);
-  //   background-repeat: no-repeat;
-  //   background-size: 100% 100%;
-  //   background-position: center;
-  //   height: 80vh;
   @include headerHeight(65vh);
 }
 
@@ -79,5 +67,4 @@ h1 {
   @include fontSize(5.5rem);
   text-align: center;
   padding-top: 100px;
-  // padding-right: 60px;
 }

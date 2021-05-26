@@ -300,6 +300,10 @@ template {
   font-family: "Barlow", sans-serif;
 }
 
+.contact-ul {
+  margin-top: 0;
+}
+
 .home-ul li,
 .contact-ul li {
   padding: 15px 25px 0;
@@ -367,7 +371,6 @@ h1 {
 
 .contact-page-section {
   background-color: #0c1423;
-  padding: 100px 0;
 }
 
 .social-links ul {
@@ -417,22 +420,23 @@ address p {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  padding: 100px 0;
 }
 
 .contact-page-details-box {
-  margin-right: 25px;
+  margin-right: 35px;
   width: 30%;
 }
 
-.contact-page-section .form-area {
-  width: 68%;
+.form-area {
+  width: 70%;
   background-color: #0f614e;
   padding: 60px;
   height: 450px;
   -webkit-box-shadow: -35px 35px #86e0f9;
           box-shadow: -35px 35px #86e0f9;
   position: absolute;
-  top: -300px;
+  top: -200px;
   right: 0;
 }
 
@@ -1211,5 +1215,100 @@ h4 {
   .home-box-image img {
     width: 170px;
     height: 220px;
+  }
+}
+@media (max-width: 1050px) {
+  .contact-banner-text h1 {
+    text-align: end;
+  }
+}
+@media (max-width: 955px) {
+  .contact-ul li {
+    padding: 15px 18px;
+  }
+
+  .contact-banner-text h1 {
+    text-align: center;
+  }
+
+  .contact-page-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+
+  .contact-page-details-box {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 300px;
+  }
+
+  .form-area {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+    top: 0;
+    -webkit-box-shadow: 0px 0px;
+            box-shadow: 0px 0px;
+    padding: 40px 60px;
+    height: 350px;
+  }
+
+  textarea {
+    height: 130px;
+  }
+}
+@media (max-width: 645px) {
+  .name-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .name,
+.email,
+.message {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  input,
+textarea {
+    padding: 10px 15px;
+    background-color: #0f614e;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-page-header {
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .form-area {
+    padding: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .contact-ul li {
+    padding: 15px 12px;
+    font-size: 1.1rem;
+  }
+
+  .contact-banner-text h1 {
+    padding-top: 50px;
+    line-height: 55px;
   }
 }
