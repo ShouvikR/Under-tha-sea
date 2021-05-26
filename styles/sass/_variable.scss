@@ -13,3 +13,10 @@ $bodyFont: "Lato", sans-serif;
   font-family: $baseFont;
   text-transform: uppercase;
 }
+
+@mixin headerHeight($sizeValue) {
+  height: $sizeValue;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
