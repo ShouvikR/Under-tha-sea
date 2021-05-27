@@ -1,0 +1,151 @@
+
+
+.blog-body {
+    background-color: $primary;
+}
+
+// .about-the-sea {
+//     width: 40%;
+// }
+
+.about-the-sea {
+    position: relative;
+    padding-top: 70px;
+    // width: 420px;
+
+    // width: 35%;
+}
+
+.side-blog-details {
+    background-color: $secondary;
+    padding: 310px 20px 20px;
+
+    width: 310px;
+    margin-left: 80px;
+}
+
+.side-blog-details a {
+    text-transform: none;
+}
+
+.side-blog-details p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.side-blog-details ul li::before {
+    content: "•";
+    color: $fontColor;
+    padding-right: 5px;
+}
+
+.side-blog-details ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.side-blog-details ul li {
+    color: $fontColor;
+    line-height: 25px;
+    font-size: 1.4rem;
+}
+
+.side-blog-img img {
+    width: 370px;
+}
+
+.side-blog-img {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.blog-body h2 {
+    font-size: 2rem;
+}
+
+// Blog-left-part:
+
+.blog-post-img img {
+    box-shadow: -25px 25px $shadow; 
+}
+
+.blog-post-img {
+    margin-top: -200px;
+    margin-left: 25px;
+}
+
+.blog-main {
+    display: flex;
+}
+
+.blog-left-part {
+    margin-right: 70px;
+}
+
+.blog-post-details {
+    padding: 50px 0px 10px 30px;
+    border-left: 4px solid $shadow;
+    border-bottom: 4px solid $shadow;
+    margin-right: 80px;
+}
+
+.blog-post-details p,
+.comment-box p {
+    padding: 5px 0 25px;
+}
+
+// Section: Comment-box
+
+.comment-box {
+    padding: 50px 0px 10px 30px;
+    margin-right: 80px;
+}
+
+.comment-box h4 {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+}
+
+.comment-box-flex {
+    display: flex;
+}
+
+.comment-box-flex img {
+    width: 100px;
+}
+
+.comment-section div:nth-of-type(1) {
+    padding-bottom: 40px;
+}
+
+.comment-box-flex div:nth-of-type(1) {
+    margin-right: 20px;
+}
+
+.comment-box-flex h5 {
+    font-size: 1.4rem;
+    text-transform: none;
+}
+
+
+// Section: blog-form-section
+
+.blog-form-area {
+    padding: 50px 0px 10px 30px;
+    margin-right: 80px;
+    padding-bottom: 60px;
+}
+
+.blog-form-area input,
+.blog-form-area textarea {
+    background-color: $primary;
+}
+
+.blog-form-area button {
+    width: 100%;
+    background-color: $secondary;
+    border: 1px solid $secondary;
+    color: $fontColor;
+    text-transform: uppercase;
+}

@@ -287,7 +287,8 @@ template {
 }
 
 .home-ul,
-.contact-ul {
+.contact-ul,
+.blog-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,7 +306,8 @@ template {
 }
 
 .home-ul li,
-.contact-ul li {
+.contact-ul li,
+.blog-ul li {
   padding: 15px 25px 0;
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -314,7 +316,9 @@ template {
 .home-ul a:hover,
 .home-ul a:focus,
 .contact-ul a:hover,
-.contact-ul a:focus {
+.contact-ul a:focus,
+.blog-ul a:hover,
+.blog-ul a:focus {
   color: #86e0f9;
 }
 
@@ -327,7 +331,9 @@ h1 {
   line-height: 75px;
 }
 
-.header-content {
+.header-content,
+.contact-header-flex,
+.blog-header-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,6 +357,22 @@ h1 {
           align-items: center;
 }
 
+.blog-banner-text,
+.contact-banner-text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 60px;
+  padding-right: 40px;
+}
+
 .contact-page-header {
   background-image: url(../../assets/contact-header.jpg);
   height: 65vh;
@@ -359,14 +381,21 @@ h1 {
   background-position: center;
 }
 
-.contact-banner-text h1 {
+.contact-banner-text h1,
+.blog-page-header h1 {
   font-size: 5.5rem;
   color: #fff;
   font-weight: bold;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 100px;
+}
+
+.blog-page-header {
+  background-image: url(../../assets/blog-header.jpg);
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .contact-page-section {
@@ -481,13 +510,163 @@ textarea {
   border: 2px solid #86e0f9;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 .form-area button {
   width: 100%;
   text-transform: uppercase;
   color: #fff;
   background-color: #0c1423;
-  border: none;
+  border: 1px solid #0c1423;
   font-size: 1.3rem;
+}
+
+.form-area button:hover,
+.form-area button:focus {
+  border: 1px solid #86e0f9;
+}
+
+.blog-body {
+  background-color: #0c1423;
+}
+
+.about-the-sea {
+  position: relative;
+  padding-top: 70px;
+}
+
+.side-blog-details {
+  background-color: #0f614e;
+  padding: 310px 20px 20px;
+  width: 310px;
+  margin-left: 80px;
+}
+
+.side-blog-details a {
+  text-transform: none;
+}
+
+.side-blog-details p {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.side-blog-details ul li::before {
+  content: "•";
+  color: #fff;
+  padding-right: 5px;
+}
+
+.side-blog-details ul {
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.side-blog-details ul li {
+  color: #fff;
+  line-height: 25px;
+  font-size: 1.4rem;
+}
+
+.side-blog-img img {
+  width: 370px;
+}
+
+.side-blog-img {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.blog-body h2 {
+  font-size: 2rem;
+}
+
+.blog-post-img img {
+  -webkit-box-shadow: -25px 25px #86e0f9;
+          box-shadow: -25px 25px #86e0f9;
+}
+
+.blog-post-img {
+  margin-top: -200px;
+  margin-left: 25px;
+}
+
+.blog-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-left-part {
+  margin-right: 70px;
+}
+
+.blog-post-details {
+  padding: 50px 0px 10px 30px;
+  border-left: 4px solid #86e0f9;
+  border-bottom: 4px solid #86e0f9;
+  margin-right: 80px;
+}
+
+.blog-post-details p,
+.comment-box p {
+  padding: 5px 0 25px;
+}
+
+.comment-box {
+  padding: 50px 0px 10px 30px;
+  margin-right: 80px;
+}
+
+.comment-box h4 {
+  margin-bottom: 35px;
+  padding-bottom: 10px;
+}
+
+.comment-box-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment-box-flex img {
+  width: 100px;
+}
+
+.comment-section div:nth-of-type(1) {
+  padding-bottom: 40px;
+}
+
+.comment-box-flex div:nth-of-type(1) {
+  margin-right: 20px;
+}
+
+.comment-box-flex h5 {
+  font-size: 1.4rem;
+  text-transform: none;
+}
+
+.blog-form-area {
+  padding: 50px 0px 10px 30px;
+  margin-right: 80px;
+  padding-bottom: 60px;
+}
+
+.blog-form-area input,
+.blog-form-area textarea {
+  background-color: #0c1423;
+}
+
+.blog-form-area button {
+  width: 100%;
+  background-color: #0f614e;
+  border: 1px solid #0f614e;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 html {

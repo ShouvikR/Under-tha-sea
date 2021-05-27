@@ -11,7 +11,8 @@
 }
 
 .home-ul,
-.contact-ul {
+.contact-ul,
+.blog-ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -23,7 +24,8 @@
 }
 
 .home-ul li,
-.contact-ul li {
+.contact-ul li,
+.blog-ul li {
   padding: 15px 25px 0;
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -32,7 +34,9 @@
 .home-ul a:hover,
 .home-ul a:focus,
 .contact-ul a:hover,
-.contact-ul a:focus {
+.contact-ul a:focus,
+.blog-ul a:hover,
+.blog-ul a:focus {
   color: $shadow;
 }
 
@@ -41,7 +45,9 @@ h1 {
   line-height: 75px;
 }
 
-.header-content {
+.header-content,
+.contact-header-flex,
+.blog-header-flex {
   display: flex;
   height: 90%;
   flex-direction: column;
@@ -54,6 +60,16 @@ h1 {
   align-items: center;
 }
 
+.blog-banner-text,
+.contact-banner-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-right: 40px;
+}
+
 // --------------------------------------------
 
 // contact-page-header:
@@ -63,8 +79,19 @@ h1 {
   @include headerHeight(65vh);
 }
 
-.contact-banner-text h1 {
+.contact-banner-text h1,
+.blog-page-header h1 {
   @include fontSize(5.5rem);
-  text-align: center;
-  padding-top: 100px;
+  // text-align: center;
+  // padding-top: 100px;
+  // padding-right: 250px;
+}
+
+
+
+// --------------------------------
+
+.blog-page-header {
+  background-image: url(../../assets/blog-header.jpg);
+  @include headerHeight(65vh);
 }

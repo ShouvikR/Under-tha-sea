@@ -104,11 +104,21 @@ textarea {
   border: 2px solid $shadow;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 .form-area button {
   width: 100%;
   text-transform: uppercase;
   color: $fontColor;
   background-color: $primary;
-  border: none;
+  border: 1px solid $primary;
   font-size: 1.3rem;
+}
+
+.form-area button:hover,
+.form-area button:focus {
+  border: 1px solid $shadow;
 }
