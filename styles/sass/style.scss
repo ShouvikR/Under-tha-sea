@@ -69,7 +69,6 @@ h5 {
 
 .about {
   background-color: $primary;
-//   position: relative;
 }
 
 .home-box-image img {
@@ -252,7 +251,6 @@ h4 {
     margin-right: 12px;
 }
 
-
 .location h4::before {
     content: "\f124";
 }
@@ -343,6 +341,6 @@ footer p {
 
 // --------------------------------
 
-// Importing media
+// Importing media query
 
 @import "media-query";

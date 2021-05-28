@@ -4,29 +4,26 @@
     background-color: $primary;
 }
 
-// .about-the-sea {
-//     width: 40%;
-// }
-
 .about-the-sea {
     position: relative;
     padding-top: 70px;
-    // width: 420px;
-
-    // width: 35%;
 }
 
 .side-blog-details {
     background-color: $secondary;
     padding: 310px 20px 20px;
-
     width: 310px;
     margin-left: 80px;
 }
 
 .side-blog-details a {
     text-transform: none;
+    &:hover,
+    &:focus {
+        color: rgb(232, 176, 36);
+    }
 }
+
 
 .side-blog-details p {
     font-size: 1.4rem;
