@@ -245,7 +245,6 @@
 
   .home-ul {
     display: none;
-    // flex-direction: column;
     align-items: flex-end;
     width: 100%;
     margin-top: 0;
@@ -263,20 +262,17 @@
 
   .hamburger {
     display: block;
-    // width: 100%;
   }
 
   .banner-text {
     height: 100%;
     align-items: flex-start;
-    // justify-content: flex-start;
     padding-top: 40px;
   }
 
   h1 {
     font-size: 5rem;
     line-height: 50px;
-    // margin-top: 40px;
   }
 
   .home-box-image img {

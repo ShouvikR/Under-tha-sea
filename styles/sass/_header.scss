@@ -21,7 +21,6 @@
 }
 
 .homepage-header nav {
-  // position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -32,11 +31,7 @@
   border: none;
   padding-top: 22px;
   color: #fff;
-  // font-size: 1.2rem;
   display: none;
-  
-  // position: absolute;
-  // right: 0;
 }
 
 .hamburger:hover,
