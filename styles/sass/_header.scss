@@ -14,9 +14,35 @@
 .contact-ul,
 .blog-ul {
   display: flex;
+  
   justify-content: flex-end;
   align-items: center;
   font-family: $baseFont;
+}
+
+.homepage-header nav {
+  // position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+  padding-top: 22px;
+  color: #fff;
+  // font-size: 1.2rem;
+  display: none;
+  
+  // position: absolute;
+  // right: 0;
+}
+
+.hamburger:hover,
+.hamburger:focus {
+  outline: none;
+  border: none;
 }
 
 .contact-ul {
