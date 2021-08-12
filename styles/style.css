@@ -1273,18 +1273,24 @@ h4 {
     height: 55vh;
   }
 
+  .testing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .home-ul {
     display: none;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 
   .home-ul li {
-    padding-top: 0;
+    padding-top: 15px;
   }
 
   .home-ul.show {
@@ -1295,6 +1301,15 @@ h4 {
 
   .hamburger {
     display: block;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  .hamburger:hover {
+    color: #86e0f9;
   }
 
   .banner-text {

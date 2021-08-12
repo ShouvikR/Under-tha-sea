@@ -243,16 +243,23 @@
     height: 55vh;
   }
 
+  .testing {
+    display: flex;
+    // justify-content: space-between;
+  }
+
+
   .home-ul {
     display: none;
-    align-items: flex-end;
+    // align-items: flex-end;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
+    order: 1;
   }
 
   .home-ul li {
-    padding-top: 0;
+    padding-top: 15px;
   }
 
   .home-ul.show {
@@ -261,6 +268,12 @@
 
   .hamburger {
     display: block;
+    order: 2;
+    transition: all .2s linear;
+  }
+
+  .hamburger:hover {
+    color: #86e0f9;
   }
 
   .banner-text {
